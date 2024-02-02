@@ -1,0 +1,40 @@
+{
+    "model_id": 1778047625,
+    "url": "https://market.yandex.ru/product/1778047625/spec?sku=653536972",
+    "product_name": "SolBianca очки для солярия Goggies",
+    "category": "Автозагар и средства для солярия",
+    "subcategory": "Автозагар и средства для солярия",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/1554397/img_id8486193989619711368.jpeg/orig",
+    "description": "Специальные очки для защиты сетчатки глаз от ультрафиолета во время сеанса загара в солярии.",
+    "full_description": "Специальные очки для защиты сетчатки глаз от ультрафиолета во время сеанса загара в солярии.",
+    "vendor": "SolBianca",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1554397/img_id8486193989619711368.jpeg/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Общие характеристики",
+            "name": "Область применения",
+            "value": "ноги, тело"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Эффект",
+            "value": "питание, смягчение, увлажнение"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Дополнительная информация",
+            "value": "на резинке"
+        },
+        {
+            "category": "Дополнительно",
+            "name": "Срок годности",
+            "value": "3 г."
+        }
+    ],
+    "status": "OK"
+}

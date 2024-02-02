@@ -1,0 +1,45 @@
+{
+    "model_id": 415578264,
+    "url": "https://market.yandex.ru/product/415578264/spec?sku=100607006009",
+    "product_name": "Резинка для волос с декоративным элементом Magie Accessories Hello Kitty (розовый) 1шт",
+    "category": "Красота",
+    "subcategory": "Резинки, ободки, повязки",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/1565610/img_id4637308988875619364.jpeg/orig",
+    "description": "Пластик; Розовый;50мм",
+    "full_description": "Пластик; Розовый;50мм",
+    "vendor": "Magie Accessoires",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1565610/img_id4637308988875619364.jpeg/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Общие характеристики",
+            "name": "Цвет товара",
+            "value": "розовый"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Количество в наборе",
+            "value": "1 шт."
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Тип",
+            "value": "резинка"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Материал",
+            "value": "пластик"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Дополнительная информация",
+            "value": "размер - 50 мм"
+        }
+    ],
+    "status": "OK"
+}

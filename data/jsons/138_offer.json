@@ -1,0 +1,107 @@
+{
+    "model_id": 1801700025,
+    "url": "https://market.yandex.ru/product/1801700025/spec?sku=100425695215",
+    "product_name": "Гель для душа Kapous Gentle, 250 мл, 100 г",
+    "category": "Красота",
+    "subcategory": "Для душа",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/4408567/img_id1287370801460329972.jpeg/orig",
+    "description": "Разработан на основе комплекса с натуральным экстрактом листьев Оливы. Подходит для ежедневного ухода за всеми типами кожи. Формула геля смягчает жесткую водопроводную воду, очищает и увлажняет кожу, сохраняя кислотный баланс (PH-баланс) и укрепляя здоровье кожи. Экстракт листьев Оливы обладает защитными и питающими свойствами. Высокое содержание антиоксидантов в экстракте нейтрализует воздействие свободный радикалов, протеины, минералы и витамины обеспечивают коже максимальное увлажнение.",
+    "full_description": "Разработан на основе комплекса с натуральным экстрактом листьев Оливы. Подходит для ежедневного ухода за всеми типами кожи. Формула геля смягчает жесткую водопроводную воду, очищает и увлажняет кожу, сохраняя кислотный баланс (PH-баланс) и укрепляя здоровье кожи. Экстракт листьев Оливы обладает защитными и питающими свойствами. Высокое содержание антиоксидантов в экстракте нейтрализует воздействие свободный радикалов, протеины, минералы и витамины обеспечивают коже максимальное увлажнение.",
+    "vendor": "Kapous",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4408567/img_id1287370801460329972.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4362876/img_id5232630570141762188.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/7716311/img_id5921704441108150248.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1543318/img_id6553468071785546271.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/11383445/2a0000018c3ffb8af85ae24ec43a0d2ba8eb/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Общие характеристики",
+            "name": "Объем",
+            "value": "250 мл"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Вес",
+            "value": "100 г"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Средство",
+            "value": "гель"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Линейка",
+            "value": "Gentlemen"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Пол",
+            "value": "мужской"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Тип кожи",
+            "value": "для всех типов, жирная, комбинированная, нормальная, сухая"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Область применения",
+            "value": "тело"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Эффект",
+            "value": "очищение, питание, смягчение, увлажнение"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Особенности",
+            "value": "подходит для ежедневного применения"
+        },
+        {
+            "category": "Состав",
+            "name": "Активный ингредиент",
+            "value": "антиоксиданты, витамин E, витамины, минералы, протеины"
+        },
+        {
+            "category": "Состав",
+            "name": "Масла и экстракты",
+            "value": "оливковое масло, экстракт оливы"
+        },
+        {
+            "category": "Состав",
+            "name": "Не содержит",
+            "value": "парабены, силиконы"
+        },
+        {
+            "category": "Состав",
+            "name": "Состав",
+            "value": "aqua, sodium laureth sulfate, cocamidopropyl betaine, lauryl glucoside,\ncoco-glucoside, glyceryl oleate, parfum, peg-7 glyceryl cocoate, phenoxyethanol, benzyl alcohol, potassium sorbate, tocopherol, sodium chloride, sodium citrate, citric acid, saccharide isomerate, peg-150 distearate, polyquaternium-10, olea europaea leaf extract, propylene glycol, limonene, ci 42051, ci 47005"
+        },
+        {
+            "category": "Тип косметики",
+            "name": "Профессиональное средство",
+            "value": "да"
+        },
+        {
+            "category": "Дополнительно",
+            "name": "Срок годности",
+            "value": "1461 дн."
+        }
+    ],
+    "status": "OK"
+}

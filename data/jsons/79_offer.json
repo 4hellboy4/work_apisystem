@@ -1,0 +1,83 @@
+{
+    "model_id": 1731319140,
+    "url": "https://market.yandex.ru/product/1731319140/spec?sku=100277843729",
+    "product_name": "Зубная паста Ringo Anti-tobacco, 150 мл",
+    "category": "Гигиена",
+    "subcategory": "Зубная паста",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/364668/img_id4229268192802080143.jpeg/orig",
+    "description": "Зубная паста разработана специально для курильщиков. В состав пасты входит высокоэффективный полирующий природный компонент диатомин, благодаря которому зубы преобретают белизну и блеск. Диатомин препятствует образованию бактерий на поверхности зубов. Масло из семян шиповника стимулирует регенирацию слизистых оболочек полости рта. Содержит насыщенные и ненасыщенные жирные кислоты в том числе линолевую и линоленовую, а также каратиноиды и витамины С и Е.",
+    "full_description": "Зубная паста разработана специально для курильщиков. В состав пасты входит высокоэффективный полирующий природный компонент диатомин, благодаря которому зубы преобретают белизну и блеск. Диатомин препятствует образованию бактерий на поверхности зубов. Масло из семян шиповника стимулирует регенирацию слизистых оболочек полости рта. Содержит насыщенные и ненасыщенные жирные кислоты в том числе линолевую и линоленовую, а также каратиноиды и витамины С и Е.",
+    "vendor": "Ringo",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/364668/img_id4229268192802080143.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/466729/img_id47226854242670904.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/3611742/img_id4766586116807626691.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4343092/img_id1305113116253883121.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4120567/img_id4731764635910744069.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/7981713/img_id6796141015739532564.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/7980098/img_id2473384234182713519.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1056698/img_id7664946140026046658.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/5236177/img_id5441519405026841706.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1336510/img_id8145380615482096173.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4032259/img_id8162043884433426905.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/6458782/img_id7433660661278639872.jpeg/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Основные характеристики",
+            "name": "Бренд",
+            "value": "Ringo"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Тип",
+            "value": "зубная паста"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Назначение",
+            "value": "антитабачный эффект, отбеливание, свежее дыхание, удаление зубного налета, укрепление эмали"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Не содержит",
+            "value": "сахар"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Особенности",
+            "value": "с экстрактом растений"
+        },
+        {
+            "category": "Дополнительно",
+            "name": "Срок годности",
+            "value": "1096 дн."
+        }
+    ],
+    "status": "OK"
+}

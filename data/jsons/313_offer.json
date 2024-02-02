@@ -1,0 +1,61 @@
+{
+    "model_id": 484051035,
+    "url": "https://market.yandex.ru/product/484051035/spec?sku=100682857738",
+    "product_name": "Мыло для бритья 1805 в деревянной чаше Truefitt & Hill, 99 г",
+    "category": "Красота",
+    "subcategory": "Средства для бритья",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/4353087/img_id7767939988964843186.jpeg/orig",
+    "description": "Люкс-мыло для бритья в деревянной чаше. 1805 Shaving Soap in wooden bowl от Truefitt &amp; Hill: это классическое ароматное мыло для бритья, известное своим качеством и приятным ароматом. Имеет тонкий аромат натуральной лаванды. Содержит в своем составе глицерин, который увлажняет и смягчает даже самую жесткую щетину. Образует густую и обильную пену, которая обеспечивает контактное и гладкое бритье. После использования кожа выглядит свежей, гладкой и ухоженной. Мыло легко смывается.",
+    "full_description": null,
+    "vendor": "Truefitt & Hill",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4353087/img_id7767939988964843186.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/5236407/img_id1093107943561446817.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/4544006/2a0000018d03c37a896724e1f619ceec185b/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Общие характеристики",
+            "name": "Производитель",
+            "value": "Truefitt & Hill"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Средство",
+            "value": "мыло"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Назначение",
+            "value": "для бритья"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Тип кожи",
+            "value": "для всех типов"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Потребности кожи",
+            "value": "чувствительная"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Состав",
+            "value": "Состав (ingredients) указан на упаковке"
+        },
+        {
+            "category": "Дополнительно",
+            "name": "Срок годности",
+            "value": "24 мес."
+        }
+    ],
+    "status": "OK"
+}

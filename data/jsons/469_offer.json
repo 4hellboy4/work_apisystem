@@ -1,0 +1,58 @@
+{
+    "model_id": 649639248,
+    "url": "https://market.yandex.ru/product/649639248/spec?sku=100847317862",
+    "product_name": "Салфетки бумажные, двухслойные Bouquet \"Маленькие пираты\", 33x33 см (20 штук)",
+    "category": "Гигиена",
+    "subcategory": "Бумажные салфетки",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/1865885/img_id734229634313228815.jpeg/orig",
+    "description": "Размер: 33x33 см. Материал: бумага. Количество листов: 20 штук.",
+    "full_description": "Размер: 33x33 см. Материал: бумага. Количество листов: 20 штук.",
+    "vendor": "Bouquet",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1865885/img_id734229634313228815.jpeg/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/11450294/2a0000018b9b77a718071cb638f9bb1810e7/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Основные характеристики",
+            "name": "Количество листов в пачке",
+            "value": "20 шт."
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Бренд",
+            "value": "Bouquet"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Тип",
+            "value": "салфетки"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Цвет",
+            "value": "разноцветный"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Размер",
+            "value": "33 х 33 см"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Количество слоев",
+            "value": "3"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Особенности",
+            "value": "ароматизированные"
+        }
+    ],
+    "status": "OK"
+}

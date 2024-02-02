@@ -1,0 +1,40 @@
+{
+    "model_id": 564826009,
+    "url": "https://market.yandex.ru/product/564826009/spec?sku=100777549736",
+    "product_name": "Сhatte Noire 80165 Набор \"Лак для ногтей + 3шт маникюрной палочки апельсинового дерева\" №165 светло-",
+    "category": "Красота",
+    "subcategory": "Лаки для ногтей",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/1568604/img_id3069315602734221396.jpeg/orig",
+    "description": "Набор лак для ногтей с тремя палочками для маникюра апельсинового дерева.",
+    "full_description": "Набор лак для ногтей с тремя палочками для маникюра апельсинового дерева.",
+    "vendor": "Chatte Noire",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/1568604/img_id3069315602734221396.jpeg/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Общие характеристики",
+            "name": "Цвет товара",
+            "value": "№165"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Средство",
+            "value": "набор"
+        },
+        {
+            "category": "Общие характеристики",
+            "name": "Количество в наборе",
+            "value": "3 шт."
+        },
+        {
+            "category": "Дополнительно",
+            "name": "Срок годности",
+            "value": "36 мес."
+        }
+    ],
+    "status": "OK"
+}
