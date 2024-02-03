@@ -1,8 +1,7 @@
 from lxml import etree as et
+from data.functions.process_link import process_link
 
 path: str = '/home/hellboy4/hellboyAcerman/temp_xml/market_affiliate-part-tovary-dlia-krasoty.xml'
-
-API_KEY: str = '0c8bd89c2e517164204ceb1dfee65289a659b4bcffee'
 
 
 def pars_file() -> None:
@@ -18,9 +17,9 @@ def pars_file() -> None:
                 temp['name_feed'] = 'NULL'
 
             try:
-                temp['category_id_feed'] = elem.find('categoryId').text.strip()
+                temp['categoryId_feed'] = elem.find('categoryId').text.strip()
             except:
-                temp['category_id_feed'] = 'NULL'
+                temp['categoryId_feed'] = 'NULL'
 
             try:
                 temp['picture_feed'] = elem.find('picture').text.strip()
@@ -28,24 +27,60 @@ def pars_file() -> None:
                 temp['picture_feed'] = 'NULL'
 
             try:
-                temp['picture_feed'] = elem.find('picture').text.strip()
+                temp['price_feed'] = elem.find('price').text.strip()
             except:
-                temp['picture_feed'] = 'NULL'
+                temp['price_feed'] = 'NULL'
 
+            try:
+                temp['currencyId_feed'] = elem.find('currencyId').text.strip()
+            except:
+                temp['currencyId_feed'] = 'NULL'
 
+            try:
+                temp['url_feed'] = elem.find('url').text.strip()
+            except:
+                temp['url_feed'] = 'NULL'
 
+            try:
+                temp['groupId_feed'] = elem.find('group_id').text.strip()
+            except:
+                temp['groupId_feed'] = 'NULL'
 
-            group_id: str = elem.find('group_id').text.strip()
-            # sci_id: str = elem.get('id')
-            if group_id not in group_id:
-                link: str = (f'http://market.apisystem.name/models/{group_id}/specification?&format=json&api_key={API_KEY}')
+            try:
+                temp['vendor_feed'] = elem.find('vendor').text.strip()
+            except:
+                temp['vendor_feed'] = 'NULL'
 
-            cnt += 1
-        if cnt == 500:
+            try:
+                temp['description_feed'] = elem.find('description').text.strip()
+            except:
+                temp['description_feed'] = 'NULL'
+
+            try:
+                temp['barcode_feed'] = elem.find('barcode').text.strip()
+            except:
+                temp['barcode_feed'] = 'NULL'
+
+            try:
+                temp['oldprice_feed'] = elem.find('oldprice').text.strip()
+            except:
+                temp['oldprice_feed'] = 'NULL'
+
+            try:
+                temp['param_feed'] = elem.find('param').text.strip()
+            except:
+                temp['param_feed'] = 'NULL'
+
+            if temp['groupId_feed'] not in list_of_id:
+                cnt += 1
+                list_of_id.append(temp['groupId_feed'])
+                process_link(temp['groupId_feed'], temp)
+                print(f'{cnt+1}')
+        if cnt == 5:
             break
 
 
-def add_to_file() -> None:
-    with open('../IDs.txt', 'w', encoding='utf-8') as file:
-        for id_temp in list_of_id:
-            file.write(f'{id_temp}\n')
+# def add_to_file() -> None:
+#     with open('../IDs.txt', 'w', encoding='utf-8') as file:
+#         for id_temp in list_of_id:
+#             file.write(f'{id_temp}\n')
