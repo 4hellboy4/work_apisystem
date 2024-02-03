@@ -11,8 +11,31 @@ def pars_file() -> None:
     for event, elem in et.iterparse(path, events=('end',), tag=['offer'], recover=True):
         if event == 'end' and elem.tag == 'offer':
             temp = {}
+
+            try:
+                temp['name_feed'] = elem.find('name').text.strip()
+            except:
+                temp['name_feed'] = 'NULL'
+
+            try:
+                temp['category_id_feed'] = elem.find('categoryId').text.strip()
+            except:
+                temp['category_id_feed'] = 'NULL'
+
+            try:
+                temp['picture_feed'] = elem.find('picture').text.strip()
+            except:
+                temp['picture_feed'] = 'NULL'
+
+            try:
+                temp['picture_feed'] = elem.find('picture').text.strip()
+            except:
+                temp['picture_feed'] = 'NULL'
+
+
+
+
             group_id: str = elem.find('group_id').text.strip()
-            temp['']
             # sci_id: str = elem.get('id')
             if group_id not in group_id:
                 link: str = (f'http://market.apisystem.name/models/{group_id}/specification?&format=json&api_key={API_KEY}')
