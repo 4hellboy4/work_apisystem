@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02721e70-b924-4c34-85d1-8da2f3ec3918" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/functions/init_logs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/functions/pars_offers.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/functions/pars_offers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/functions/process_the_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/functions/process_link.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/functions/request_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/functions/request_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="02721e70-b924-4c34-85d1-8da2f3ec3918" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +116,7 @@
       <workItem from="1706959050902" duration="5109000" />
       <workItem from="1706973408979" duration="1184000" />
       <workItem from="1706974658702" duration="306000" />
+      <workItem from="1706989194329" duration="322000" />
     </task>
     <servers />
   </component>
