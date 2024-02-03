@@ -1,10 +1,11 @@
 from lxml import etree as et
-from data.functions.process_link import process_link
+from components.functions.process_link import process_link
+from components.classes.json_list import JsonList, add_to_json_list
 
 path: str = '/home/hellboy4/hellboyAcerman/temp_xml/market_affiliate-part-tovary-dlia-krasoty.xml'
 
 
-def pars_file() -> None:
+def pars_file(jsons_class: JsonList) -> None:
     cnt = 0
     list_of_id: list[str] = []
     for event, elem in et.iterparse(path, events=('end',), tag=['offer'], recover=True):
@@ -74,8 +75,7 @@ def pars_file() -> None:
             if temp['groupId_feed'] not in list_of_id:
                 cnt += 1
                 list_of_id.append(temp['groupId_feed'])
-                process_link(temp['groupId_feed'], temp)
-                print(f'{cnt+1}')
+                add_to_json_list(process_link(temp['groupId_feed'], temp), jsons_class)
         if cnt == 5:
             break
 
