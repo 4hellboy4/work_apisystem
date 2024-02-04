@@ -8,4 +8,4 @@
 venv/
 
 # Ignore functions that are created for testing
-/draft_functions
+/data
