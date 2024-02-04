@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="02721e70-b924-4c34-85d1-8da2f3ec3918" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/classes/json_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/classes/json_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/functions/pars_offers.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/functions/pars_offers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/functions/process_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/functions/process_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/functions/pars_offers.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/functions/pars_offers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/functions/pars_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/functions/pars_to_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/functions/process_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/functions/process_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/essentials/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/essentials/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/logs.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +37,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Debug",
-    "Python.maximum_tags.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "draft",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.maximum_tags.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;draft&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hellboy4/py2/work&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/essentials" />
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="work" />
@@ -124,6 +132,10 @@
       <workItem from="1706973408979" duration="1184000" />
       <workItem from="1706974658702" duration="306000" />
       <workItem from="1706989194329" duration="322000" />
+      <workItem from="1706992588887" duration="235000" />
+      <workItem from="1706994658198" duration="5202000" />
+      <workItem from="1706999872225" duration="42000" />
+      <workItem from="1707028505853" duration="770000" />
     </task>
     <servers />
   </component>
@@ -145,20 +157,20 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data/draft_functions/maximum_tags.py</url>
+          <url>file://$PROJECT_DIR$/components/draft_functions/maximum_tags.py</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/data/functions/pars_offers.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/components/functions/pars_to_csv.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/work$maximum_tags.coverage" NAME="maximum_tags Coverage Results" MODIFIED="1706963748198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data/draft_functions" />
-    <SUITE FILE_PATH="coverage/work$main.coverage" NAME="main Coverage Results" MODIFIED="1706974932556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/work$main.coverage" NAME="main Coverage Results" MODIFIED="1706999713544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

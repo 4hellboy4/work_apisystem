@@ -76,7 +76,7 @@ def pars_file(jsons_class: JsonList) -> None:
                 cnt += 1
                 list_of_id.append(temp['groupId_feed'])
                 add_to_json_list(process_link(temp['groupId_feed'], temp), jsons_class)
-        if cnt == 5:
+        if cnt == 500:
             break
 
 

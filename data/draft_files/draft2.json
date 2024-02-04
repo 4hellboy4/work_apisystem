@@ -1,0 +1,75 @@
+{
+    "name_feed": "Мультифункциональный несмываемый спрей 150 мл",
+    "categoryId_feed": "4854062",
+    "picture_feed": "https://avatars.mds.yandex.net/get-mpic/5234569/img_id8057806066457887771.png/9",
+    "price_feed": "2300",
+    "currencyId_feed": "RUB",
+    "url_feed": "https://market.yandex.ru/product--multifunktsionalnyi-nesmyvaemyi-sprei-150-ml/1777984693?distr_type=7&mclid=1002&pp=940&sku=42167863",
+    "groupId_feed": "1777984693",
+    "vendor_feed": "Artego",
+    "description_feed": "Мультифункциональный несмываемый спрей 150 мл",
+    "barcode_feed": "NULL",
+    "oldprice_feed": "NULL",
+    "param_feed": "NULL",
+    "model_id": 1777984693,
+    "url": "https://market.yandex.ru/product/1777984693/spec",
+    "product_name": "Мультифункциональный несмываемый спрей 150 мл",
+    "category": "Красота",
+    "subcategory": "Маски и сыворотки",
+    "prev_image": "https://avatars.mds.yandex.net/get-mpic/5234569/img_id8057806066457887771.png/orig",
+    "description": "средство: средство, эффект: восстановление, облегчение расчесывания, придание блеска, разглаживание, увлажнение, особенности: подходит для ежедневного использования, не требует смывания",
+    "full_description": null,
+    "vendor": "Artego",
+    "photos": [
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/5234569/img_id8057806066457887771.png/orig"
+        },
+        {
+            "url": "https://avatars.mds.yandex.net/get-mpic/5319505/img_id4928646601005206810.jpeg/orig"
+        }
+    ],
+    "video": null,
+    "specifications": [
+        {
+            "category": "Основные характеристики",
+            "name": "Страна",
+            "value": "Италия"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Средство",
+            "value": "средство"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Эффект",
+            "value": "восстановление, облегчение расчесывания, придание блеска, разглаживание, увлажнение"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Особенности",
+            "value": "подходит для ежедневного использования"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Не требует смывания",
+            "value": "да"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Страна бренда",
+            "value": "Италия"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Способ применения",
+            "value": "нанести спрей на чистые влажные волосы по всей длине и уложить"
+        },
+        {
+            "category": "Основные характеристики",
+            "name": "Дополнительная информация",
+            "value": "содержит масло камелии, масло цубаки, серицин"
+        }
+    ],
+    "status": "OK"
+}
