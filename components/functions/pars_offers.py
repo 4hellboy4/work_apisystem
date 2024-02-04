@@ -75,8 +75,8 @@ def pars_file(jsons_class: JsonList) -> None:
             if temp['groupId_feed'] not in list_of_id:
                 cnt += 1
                 list_of_id.append(temp['groupId_feed'])
-                add_to_json_list(process_link(temp['groupId_feed'], temp), jsons_class)
-        if cnt == 500:
+                add_to_json_list(process_link(temp['groupId_feed'], temp, cnt), jsons_class)
+        if cnt == 2:
             break
 
 
