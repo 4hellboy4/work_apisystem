@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="02721e70-b924-4c34-85d1-8da2f3ec3918" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/components/functions/pars_offers.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/functions/pars_offers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/functions/process_link.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/functions/process_link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/functions/pars_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/functions/pars_to_csv.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Debug",
-    "Python.maximum_tags.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "draft",
-    "last_opened_file_path": "/home/hellboy4/py2/work",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.maximum_tags.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;draft&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hellboy4/py2/work&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/essentials" />
@@ -131,6 +131,7 @@
       <workItem from="1706994658198" duration="5202000" />
       <workItem from="1706999872225" duration="42000" />
       <workItem from="1707028505853" duration="1471000" />
+      <workItem from="1707030330751" duration="328000" />
     </task>
     <servers />
   </component>
