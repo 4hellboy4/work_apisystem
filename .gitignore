@@ -9,3 +9,7 @@ venv/
 
 # Ignore functions that are created for testing
 /data
+
+/data/essentials
+
+/components/constants
