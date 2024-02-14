@@ -12,38 +12,22 @@ from components.classes.json_list import JsonList, add_to_json_list
     2. Если нет, то мы созраняем этот запрос и делаем обычный чтобы посмотреть спесификации
 '''
 
-
-def handle_offer_link(model: str, level: int, file: json, params, json_list: JsonList) -> None:
-    #TODO - add parameters of type dict
-    if file['status'] != 'OK':
+def handle_link(model_id: str, level: int, req: json, jsons_list: JsonList, goods: set) -> None:
+    # print(req['product_name'])
+    if req['status'] != 'OK':
         return
-    if 'filters' in file:
-        if level == -1:
-            params = {}
-            params['others'] = {}
-        temp = file['filters']
-        keys_list: list = [key for key in temp.keys()]
-        level += 1
+    if 'filters' in req:
+        keys_list: list[str] = [key for key in req['filters'].keys()]
         if level == len(keys_list):
-            # process_link(model, params, 'specification')
-            add_to_json_list(process_link(model, params, 'specification'), json_list)
+            if req['product_name'] not in goods:
+                add_to_json_list(req, jsons_list)
+                print(req['product_name'])
+                goods.add(req['product_name'])
             return
-        for key in file['filters'][keys_list[level]]['valueIds']:
-            name = temp[keys_list[level]]['name']
-            sku_id: str = temp[keys_list[level]]['valueIds'][key]['skuId']
-            value: str = temp[keys_list[level]]['valueIds'][key]['value']
-            params['others'][name] = value
-            url: str = f'http://market.apisystem.name/models/{model}/offers?&format=json&skuid={sku_id}&api_key={api_key}'
-            handle_offer_link(model, level, get_json_from_url(url), params, json_list)
-    else:
-        pass
-
-
-
-
-
-
-
-
-
-
+        temp_key: str = keys_list[level]
+        for value_id in req['filters'][temp_key]['valueIds'].keys():
+            sku_id: str = req['filters'][temp_key]['valueIds'][value_id]['skuId']
+            value: str = req['filters'][temp_key]['valueIds'][value_id]['value']
+            name = req['filters'][temp_key]['name']
+            url: str = (f'http://market.apisystem.name/models/{model_id}/offers?&format=json&skuid={sku_id}&api_key={api_key}')
+            handle_link(model_id, level + 1, get_json_from_url(url), jsons_list, goods)

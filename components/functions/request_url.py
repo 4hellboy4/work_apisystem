@@ -18,9 +18,10 @@ def thread_test(model: str) -> json:
                 f.write(f'----{model} gor ERROR----\n')
                 break
             else:
-                time.sleep(random.uniform(0.7, 1.5))
+                time.sleep(2)
                 f.write(f'{temp_thread.get("status")}\n')
                 continue
+
         f.write('-------------------------------------------------------------\n')
         f.write('\n')
         f.close()
@@ -36,6 +37,6 @@ def get_json_from_url(url: str) -> json:
             result = temp
         else:
             result = thread_test(url)
-        time.sleep(2)
+        time.sleep(1)
         f.close()
     return result
