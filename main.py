@@ -4,7 +4,7 @@ from components.functions.init_logs import init_logs
 from components.functions.pars_to_csv import upload_to_csv
 
 
-API_KEY: str = '0c8bd89c2e517164204ceb1dfee65289a659b4bcffee'
+API_KEY: str = '_____'
 
 
 def main() -> None:
